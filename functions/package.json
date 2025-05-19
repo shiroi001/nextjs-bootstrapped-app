@@ -1,0 +1,21 @@
+{
+  "name": "functions",
+  "scripts": {
+    "build": "tsc",
+    "serve": "firebase emulators:start --only functions",
+    "deploy": "firebase deploy --only functions"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "firebase-admin": "^11.11.1",
+    "firebase-functions": "^4.9.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^20.2.5",
+    "typescript": "^5.0.4"
+  },
+  "engines": {
+    "node": "18"
+  }
+}
